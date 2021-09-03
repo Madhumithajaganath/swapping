@@ -6,7 +6,7 @@ void main()
     scanf("%d",&a);
     scanf("%d",&b);
     a=temp;
-    b=a;
+    a=b;
     temp=b;
     printf("Numbers after swapping %d %d",a,b);
 }
